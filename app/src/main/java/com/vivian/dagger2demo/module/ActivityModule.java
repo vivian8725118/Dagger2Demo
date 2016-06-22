@@ -20,7 +20,7 @@ public class ActivityModule {
 
     @Provides
     public UserModel provideUserModel(){
-        return new UserModel("1","hjx","man");
+        return new UserModel("1","vivian","woman");
     }
 
     @Provides
