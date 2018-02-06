@@ -1,6 +1,6 @@
 # Dagger2Demo
 A simple demo for Dagger2
-#Configuration
+# Configuration
 build.gradle file of Project:
 ```
 buildscript {
@@ -23,7 +23,7 @@ dependencies {
     compile 'org.glassfish:javax.annotation:10.0-b28'
 }
 ```
-#Usage
+# Usage
 1.Create your model files
 
 2.Create component files just as the following:(the component file is mainly used for connecting the models and modules)
@@ -51,7 +51,7 @@ public class ActivityModule {
     }
 }
 ```
-#Things that may confuse you
+# Things that may confuse you
 1.When you write demo by yourself,you may come up with the problem like this:
 
 <code>Cannot resolve symbol 'DaggerActivityComponent'</code>
